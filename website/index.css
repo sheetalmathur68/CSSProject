@@ -1,0 +1,480 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    background-color: rgba(190, 192, 193, 0.598);
+}
+
+.flex-container {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+    height: 35x;
+    width: 100%;
+    padding-top: 5px;
+    position: sticky;
+    text-align: center;
+    align-items: center;
+
+}
+.item2 {
+    text-align: center;
+   
+}
+.item3 {
+    text-align: center;
+    margin: 5px;
+    font-size: x-large;
+}
+.item1 p span {
+    color: rgb(253, 138, 157);
+}
+.item3 i{
+    padding: 5px;
+}
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: pink;
+    color: black;
+    align-items: center;
+
+}
+
+.nav ul li {
+    display: inline-block;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.navbar .imgs {
+    margin-top: 0px;
+    padding-left: 40px;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: rgb(215, 32, 32);
+    text-decoration: underline;
+    transition: 0.5s;
+
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.sm {
+    display: flex;
+    text-align: center;
+}
+
+.si {
+    margin: 10px;
+    padding: 0px 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.btnn {
+    margin-right: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+.btnn:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+.cont {
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.content {
+    padding-top: 80px;
+    padding-left: 101px;
+}
+
+.content .para {
+    padding-top: 40px;
+    font-size: 18px;
+    font-family: Montserrat, sans-serif;
+    color: black;
+
+}
+
+.content .pra {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+
+.content .praa {
+    font-size: 40px;
+    font-family: Montserrat, sans-serif;
+    text-align: start;
+    color: black;
+}
+
+.content .praa span {
+    color: rgb(250, 113, 136);
+}
+
+.in img{
+    height: 550px;
+    width: 550px;
+    padding-left:200px;
+    padding-top:50px;
+}
+
+.btn {
+    font-size: 18px;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    margin-top: 25px;
+    padding: 10px 30px;
+    line-height: 30px;
+    border-radius: 10px;
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+}
+
+.btn:hover {
+    background-color: white;
+    border: 2px soild black;
+    color: black;
+    transition: 0.5s;
+}
+.input{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.s{
+    font-size: 40px;
+    margin-left: 50px;
+    margin-top: 40px;
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 20px;
+}
+.input .s1{
+    margin-top: 40px;
+    margin-right:100px;
+    padding: 20px;
+}
+input{
+    display:flex;
+    justify-content: center;
+    padding: 20px;
+    width:200px;
+    border-radius: 10px;
+}
+.input .s1 i{
+    border:1px solid black;
+    padding:20px;
+    border-radius: 10px;
+}
+.input .s1 i:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+.s span{
+    color:rgb(250, 113, 136);
+}
+.body1{
+    width:100%;
+    background-color: rgba(190, 192, 193, 0.598);               
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.body1 .bd ul li{
+    border:1px solid black;
+    display: inline-block;
+    padding:30px;
+    border-radius: 10px;
+    margin:10px;
+    background-color: white;
+    text-decoration: none;
+}
+
+.body1 .bd ul li a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin:10px;
+}
+.flex-container1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+
+}
+
+.card {
+    border: 2px solid pink;
+    width: 270px;
+    height: 400px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px;
+}
+.flex-container1 .card .p1{
+    margin-top: 8px;
+    border-radius: 5px;
+    height:40px;
+    width:100%;
+    background-color: rgba(223, 224, 224, 0.598);
+}
+.s2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   margin-bottom: 5px;
+}
+.card p{
+    padding-top:10px;
+    font-size:15px; 
+    font-family:Montserrat, sans-serif;
+}
+.card:hover{
+    border:1px solid pink;
+    box-shadow: 4px 4px 4px pink;
+}
+.bt .btn1{
+    margin-left: 500px;
+    font-size: 18px;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    padding: 15px 50px;
+    align-items: center;
+    line-height: 30px;
+    border-radius: 10px;
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+}
+.bt1{
+    margin-left: 500px;
+    margin-top: 10px;
+}
+.btn1:hover {
+    background-color: white;
+    border: 2px soild black;
+    color: black;
+    transition: 0.5s ease-out;
+}
+.s2 img{
+    padding-right:20px;
+    height: 30px;
+    width:30px;
+  }
+.conn{
+    display: flex;
+    background-color:rgba(190, 192, 193, 0.598) ;
+    height: 250px;
+    width:85%;
+    margin-left:85px;
+    border-radius: 20px;
+    margin-top:40px;
+}
+.c1{
+ margin-top:70px;
+ margin-left:50px;
+}
+
+.btn2{
+    margin-left: 400px;
+    font-size: 18px;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    padding: 15px 50px;
+    align-items: center;
+    line-height: 30px;
+    border-radius: 10px;
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+}
+.btn2:hover {
+    background-color: white;
+    border: 2px soild black;
+    color: black;
+    transition: 0.5s ease-out;
+}
+.conn p{
+    font-family: Montserrat, sans-serif;;
+}
+.c2{
+    font-size: 20px;
+    color:rgb(250, 113, 136);
+
+}
+.c3{
+    font-size:35px;
+    margin-top:10px;
+}
+.c3 span{
+    color:rgb(250, 113, 136);
+}
+
+.s2 span{
+    padding-top:100px;
+}
+.p1 i{
+    color: gold;
+}
+.cor{
+    font-size:20px;
+    margin-left:500px;
+    margin-top: 50px;
+    font-family: Montserrat, sans-serif;
+    color:rgb(250, 113, 136);
+
+}
+.cor .cor1{
+    font-size:35px;
+    font-family: Montserrat, sans-serif;
+}
+.cor1 span{
+    color:black;
+}
+.flex-container2{
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-around;
+}
+.card1 {
+    border: 1px solid pink;
+    width: 250px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: rgba(190, 192, 193, 0.598);
+}
+.card1 .revv{
+    margin-top: 8px;
+    margin-left:7px;
+    height:70px;
+   width:70px;
+   font-size: 50px;
+   background-color:white;
+   align-items: center;
+   padding-left:10px;
+   padding-top: 20px;
+}
+.card1:hover{
+    border:1px solid pink;
+    box-shadow: 4px 4px 4px pink;
+}
+.rev1{
+    margin-top:60px;
+    font-size:18px;
+    padding-top: 10px;
+}
+ .ravv:hover .rav{
+   background-color: grey;
+}
+.flex-container2 .ii{
+    margin-top: 170px;
+    font-size: larger;
+}
+footer{
+    width:100%;
+    bottom:0;
+    background:linear-gradient(to top,pink , grey);
+    color:black;
+    font-size: 13px;
+    line-height: 20px;
+    margin-top: 50px;
+}
+.row{
+    width:85%;
+    margin:auto;
+    display:flex;
+    flex-wrap:wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col{
+    flex-basis:25%;
+    padding: 10px;
+}
+.col h2{
+    width:fit-content;
+    margin-bottom: 20px;
+    position: relative;
+    margin-top: 10px;
+}
+.col .logo{       
+    margin-top: 10px;
+    height:90px;
+    width:110px;
+    margin-bottom: 1px solid black;
+}
+.email{
+    width:fit-content;
+    border-bottom: 1px solid #ccc;
+    margin:20px 0;
+
+}
+.col ul li {
+    list-style:none;
+    margin-bottom:12px;
+    font-size: 15px;
+}
+.col ul li a{
+    text-decoration: none;
+    color: black;
+}
+.col i{
+  font-size:x-large;
+  margin-left: 15px;
+}
+.col p{
+    font-size: large;
+    margin-left: 15px;
+}
